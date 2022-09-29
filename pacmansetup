@@ -13,3 +13,5 @@ mkdir /home/pi/Music
 mkdir /home/pi/Public
 mkdir /home/pi/Scratch
 mkdir /home/pi/Templates
+
+echo "Set up and ready for Pacman Terminal Tutorial"
