@@ -1,0 +1,15 @@
+#!/bin/sh
+
+useradd -m pi
+
+su - pi
+
+mkdir /home/pi/Pictures
+mkdir /home/pi/python_games
+mkdir '/home/pi/Scratch Projects'
+mkdir /home/pi/Videos
+mkdir /home/pi/Documents
+mkdir /home/pi/Music
+mkdir /home/pi/Public
+mkdir /home/pi/Scratch
+mkdir /home/pi/Templates
