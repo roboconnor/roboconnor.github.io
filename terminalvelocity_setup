@@ -9,6 +9,8 @@ passwd pi
 raspberry
 raspberry
 
+usermod -aG sudo pi
+
 su - pi
 
 mkdir /home/pi/Pictures
@@ -20,5 +22,7 @@ mkdir /home/pi/Music
 mkdir /home/pi/Public
 mkdir /home/pi/Scratch
 mkdir /home/pi/Templates
+
+clear
 
 echo "Set up and ready"
