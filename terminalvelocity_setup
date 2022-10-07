@@ -9,7 +9,7 @@ passwd pi
 raspberry
 raspberry
 
-usermod -aG sudo pi
+usermod -aG wheel pi
 
 su - pi
 
@@ -22,7 +22,5 @@ mkdir /home/pi/Music
 mkdir /home/pi/Public
 mkdir /home/pi/Scratch
 mkdir /home/pi/Templates
-
-clear
 
 echo "Set up and ready"
