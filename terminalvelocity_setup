@@ -1,0 +1,24 @@
+#!/bin/sh
+
+
+echo "Setting up Terminal Velocity lab ..."
+
+useradd -m pi
+
+passwd pi
+raspberry
+raspberry
+
+su - pi
+
+mkdir /home/pi/Pictures
+mkdir /home/pi/python_games
+mkdir '/home/pi/Scratch Projects'
+mkdir /home/pi/Videos
+mkdir /home/pi/Documents
+mkdir /home/pi/Music
+mkdir /home/pi/Public
+mkdir /home/pi/Scratch
+mkdir /home/pi/Templates
+
+echo "Set up and ready"
